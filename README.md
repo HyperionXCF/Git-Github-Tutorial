@@ -20,6 +20,7 @@
 - **merge / merging** - to merge the feature / prototype branch into another branch ( which may be main/ master )
 - **main / master branch** - this can be the branch which is in production (working code resides inside main branch.)
 - **remote repository** - repository which is hosted online like on github, gitlens, gitkraken etc.
+- **any remote repository in your account will start with _origin_ make sure**
  
 # Command Line Snips 
 
@@ -105,6 +106,28 @@ done all the changes made in local repo is pushed to the online / remote reposit
 
 # working with existing remote repos on gitServces : 
 
+- how to contribute to a project without breaking it ? - make a copy
+- how to clone remote git repos ?
+- - firstly fork the required repo into your own account.
+  - <GitHubAccountName>/<ReqdRepoName> - required repo is now forked / copied to your account.
+  - secondly attach the remote git URL to your local workspace.
+  - code > copy URL
+  - go to local git
+  - 🔼 git : **git clone <URL-of-forked-repo>** - this clones the online content of remote repository into your local workspace.
+  - now work with the forked repo locally, commit the changes to copy of required repo.
+  - changes committed to the forked repo will not reflect on the original repo.
+
+
+- anyone can't directly add / commit the modification
+- - they need to fork that repo
+  - work on it
+  - create a pull request
+  - the work will reviewed by the original author and they will suggest, comment on work.
+  - change work accordingly to the OG author
+  - modified work
+  - get approved
+  - approved work get merged.
+  - done !
 
 
 
