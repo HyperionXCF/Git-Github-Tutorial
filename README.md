@@ -97,6 +97,12 @@ pushing new changes (files and offline commits) to the remote repository (online
 - 🔼 git : **git push <targetURL> <targetBranch>** - pushes local commits to the targetted remote repo (URL) and to targetted branch.
 done all the changes made in local repo is pushed to the online / remote repository on your service provider of choice.
 
+## A few tips:
+- If there are no conflicts, Git will auto-merge.
+- If there are conflicts, Git will ask you to resolve them before you can complete the merge.
+- After merging, if you're collaborating with others, don’t forget to push.
+
+
 # working with existing remote repos on gitServces : 
 
 
